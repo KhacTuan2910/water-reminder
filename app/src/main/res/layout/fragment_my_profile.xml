@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?><!--suppress AndroidUnknownAttribute -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2979FF"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_item"
+        android:backgroundTint="#FFFFFF"
+        android:padding="10dp"
+        android:text="Your Profile"
+        android:textAlignment="center"
+        android:textColor="#2979FF"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:text="Hãy uống nước để cơ thể luôn khỏe mạnh"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_edt_boder"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="2"
+                android:text="Name:"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:fontFamily="sans-serif-medium"
+                android:minHeight="40dp"
+                android:padding="10dp"
+                android:text="Son Walker"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/custom_edt_boder"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="2"
+                android:text="Age:"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_age"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:fontFamily="sans-serif-medium"
+                android:inputType="number"
+                android:minHeight="40dp"
+                android:padding="10dp"
+                android:text="18"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/custom_edt_boder"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="2"
+                android:text="Weight:"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_weight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:fontFamily="sans-serif-medium"
+                android:inputType="numberDecimal"
+                android:minHeight="40dp"
+                android:padding="10dp"
+                android:text="55.5"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/custom_edt_boder"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="2"
+                android:text="High:"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_heigh"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:fontFamily="sans-serif-medium"
+                android:inputType="numberDecimal"
+                android:minHeight="40dp"
+                android:padding="10dp"
+                android:text="1.8"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/custom_btn"
+            android:text="Edit"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:backgroundTint="@null" />
+
+        <ImageView
+            android:id="@+id/img_remind"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:src="@drawable/img_good_tree" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

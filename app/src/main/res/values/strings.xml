@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Water Reminder</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_reminder">Reminder</string>
+    <string name="nav_history">History</string>
+    <string name="nav_contact">Contact</string>
+    <string name="nav_profile">My profile</string>
+    <string name="nav_info">Nhom1B_ltdd_dtvt@gmail.com</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>

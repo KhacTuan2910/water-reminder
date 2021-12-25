@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2962FF"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Update your Profile"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="3"
+            android:text="Name"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_name_update"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="8"
+            android:hint="Name"
+            android:textColorHint="#000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="3"
+            android:text="Age"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/edt_age_update"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="8"
+            android:hint="Age"
+            android:textColorHint="#000" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="3"
+            android:text="Weight"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/edt_weight_update"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="8"
+            android:hint="Weight"
+            android:textColorHint="#000" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="3"
+            android:text="Heigh"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/edt_heigh_update"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="8"
+            android:hint="Heigh"
+            android:textColorHint="#000" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/custom_btn"
+        android:backgroundTint="@null"
+        android:text="Update"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null" />
+
+
+</LinearLayout>

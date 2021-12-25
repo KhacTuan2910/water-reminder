@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_margin="5dp"
+    android:id="@+id/layout_item"
+    android:background="@drawable/custom_item"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_item"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_water_reminder" />
+
+    <TextView
+        android:id="@+id/title_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Number"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time: 7h30"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/des_item"
+        android:text="800ml"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

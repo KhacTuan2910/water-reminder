@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200sp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20dp"
+    android:gravity="bottom"
+    android:background="#2962FF"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_water_reminder" />
+
+    <TextView
+        android:id="@+id/tv_name_nav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Son Walker"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hãy uống nước để cơ thể \nluôn khỏe mạnh"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+</LinearLayout>
